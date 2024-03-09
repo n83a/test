@@ -3,13 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="robots" content="noindex">
+  <script src="./main.js"></script>
 
-  <title>
-    Test
-  </title>
+  <title>Test</title>
+
+  <style>
+    
+    .custom-button {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* Remove border */
+  color: white; /* White text */
+  padding: 15px 32px; /* Padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Display as block element */
+  font-size: 16px; /* Font size */
+  margin: 4px 2px; /* Margin */
+  transition-duration: 0.4s; /* Smooth transition on hover */
+  cursor: pointer; /* Cursor style */
+  border-radius: 12px; /* Rounded corners */
+}
+
+.custom-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+ 
+</style>
 </head>
   <body>
     <h1>Hello World!!</h1>
-    <button class="favorite styled" type="button">Add to favorites</button>
+    <button class="custom-button" id="myButton">Click me</button>
   </body>
 </html>
